@@ -30,11 +30,11 @@ Using Rest Assured java library I have automated some of the API endpoints.
 
 ## Getting Started
 
-Step 1 : Install Jira Software Server on your local machine.Its available for 30 days free trial.
+Step 1 : Create a twitter developer account.Link- developer.twitter.com/en/
 
-Step 2 : Start Jira Server.
+Step 2 : Create an app to get Access Token and other secret keys(This will be used in API Requests).
 
-Step 3 : Create a Project.Note down the Project Key(This will be used in API Requests).
+Step 3 : 
 
 Step 4 : Clone or download this repository.
 
@@ -53,7 +53,8 @@ Step 10 : You can execute the testcases using the testng.xml file present under 
 
 ## Built With
 
-* Cucumber - Unit Testing Framework
+* Cucumber - BDD tool
+* JUint - Unit Testing Framework
 * Page Object Model - Design Pattern
 * Maven - Build Automation and Dependency Management
 * Rest Assured - Java library for RESTful APIs automation
