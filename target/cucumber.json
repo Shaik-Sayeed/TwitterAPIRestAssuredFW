@@ -1,0 +1,749 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Verify that Tweet is succesfully posted using PostTweetAPI",
+        "description": "",
+        "id": "tweet-apis;verify-that-tweet-is-succesfully-posted-using-posttweetapi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1097690300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Post Tweet Payload with a \"The most beautiful smile belongs to those who make others smile\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The most beautiful smile belongs to those who make others smile\"",
+                  "offset": 26
+                }
+              ],
+              "location": "TweetAPIStepDefination.post_Tweet_with_a_message(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4144783000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User sends \"PostTweet\" API request with \"POST\" http method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PostTweet\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 40
+                }
+              ],
+              "location": "TweetAPIStepDefination.user_sends_API_request_with_http_method(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3029600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Status code of response is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "TweetAPIStepDefination.status_code_of_response_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 117700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Status line of response is \"HTTP/1.1 200 OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HTTP/1.1 200 OK\"",
+                  "offset": 27
+                }
+              ],
+              "location": "TweetAPIStepDefination.status_line_of_response_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1028279600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"text\" in response body matches with \"The most beautiful smile belongs to those who make others smile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"text\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"The most beautiful smile belongs to those who make others smile\"",
+                  "offset": 37
+                }
+              ],
+              "location": "TweetAPIStepDefination.in_response_body_matches_with(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57423300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"id\" in response body is not null or empty",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 0
+                }
+              ],
+              "location": "TweetAPIStepDefination.in_response_body_is_not_null_or_empty(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PostTweet"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify that Tweet is succesfully posted using PostTweetAPI",
+        "description": "",
+        "id": "tweet-apis;verify-that-tweet-is-succesfully-posted-using-posttweetapi;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5397000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Post Tweet Payload with a \"Do the Good to Bad then Bad will do Good to you\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Do the Good to Bad then Bad will do Good to you\"",
+                  "offset": 26
+                }
+              ],
+              "location": "TweetAPIStepDefination.post_Tweet_with_a_message(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1546288700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User sends \"PostTweet\" API request with \"POST\" http method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PostTweet\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 40
+                }
+              ],
+              "location": "TweetAPIStepDefination.user_sends_API_request_with_http_method(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Status code of response is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "TweetAPIStepDefination.status_code_of_response_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Status line of response is \"HTTP/1.1 200 OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HTTP/1.1 200 OK\"",
+                  "offset": 27
+                }
+              ],
+              "location": "TweetAPIStepDefination.status_line_of_response_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47082900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"text\" in response body matches with \"Do the Good to Bad then Bad will do Good to you\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"text\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Do the Good to Bad then Bad will do Good to you\"",
+                  "offset": 37
+                }
+              ],
+              "location": "TweetAPIStepDefination.in_response_body_matches_with(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40138900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"id\" in response body is not null or empty",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 0
+                }
+              ],
+              "location": "TweetAPIStepDefination.in_response_body_is_not_null_or_empty(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PostTweet"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Verify that duplicate tweet is not posted using PostTweetAPI",
+        "description": "",
+        "id": "tweet-apis;verify-that-duplicate-tweet-is-not-posted-using-posttweetapi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1915700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Post Tweet Payload with a \"Do the Good to Bad then Bad will do Good to you\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Do the Good to Bad then Bad will do Good to you\"",
+                  "offset": 26
+                }
+              ],
+              "location": "TweetAPIStepDefination.post_Tweet_with_a_message(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1458489600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User sends \"PostTweet\" API request with \"POST\" http method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PostTweet\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 40
+                }
+              ],
+              "location": "TweetAPIStepDefination.user_sends_API_request_with_http_method(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Status code of response is 403",
+            "match": {
+              "arguments": [
+                {
+                  "val": "403",
+                  "offset": 27
+                }
+              ],
+              "location": "TweetAPIStepDefination.status_code_of_response_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Status line of response is \"HTTP/1.1 403 Forbidden\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HTTP/1.1 403 Forbidden\"",
+                  "offset": 27
+                }
+              ],
+              "location": "TweetAPIStepDefination.status_line_of_response_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79773200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "\"errors[0].message\" in response body matches with \"Status is a duplicate.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"errors[0].message\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Status is a duplicate.\"",
+                  "offset": 50
+                }
+              ],
+              "location": "TweetAPIStepDefination.in_response_body_matches_with(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18583400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "\"errors[0].code\" in response body matches with \"187\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"errors[0].code\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"187\"",
+                  "offset": 47
+                }
+              ],
+              "location": "TweetAPIStepDefination.in_response_body_matches_with(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PostTweet"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Verify that specified tweet is shown using GetTweetAPI",
+        "description": "",
+        "id": "tweet-apis;verify-that-specified-tweet-is-shown-using-gettweetapi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1148009300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Get Tweet Payload with TweetId for \"Even the worst days have an ending, and the best days have a beginning\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Even the worst days have an ending, and the best days have a beginning\"",
+                  "offset": 35
+                }
+              ],
+              "location": "TweetAPIStepDefination.get_Tweet_Payload_with_TweetId_for(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1375726100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User sends \"GetTweet\" API request with \"GET\" http method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetTweet\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 39
+                }
+              ],
+              "location": "TweetAPIStepDefination.user_sends_API_request_with_http_method(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Status code of response is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "TweetAPIStepDefination.status_code_of_response_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Status line of response is \"HTTP/1.1 200 OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HTTP/1.1 200 OK\"",
+                  "offset": 27
+                }
+              ],
+              "location": "TweetAPIStepDefination.status_line_of_response_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37601300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "\"text\" in response body matches with \"Even the worst days have an ending, and the best days have a beginning\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"text\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Even the worst days have an ending, and the best days have a beginning\"",
+                  "offset": 37
+                }
+              ],
+              "location": "TweetAPIStepDefination.in_response_body_matches_with(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetTweet"
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "Verify that specified tweet is shown using DeleteTweetAPI",
+        "description": "",
+        "id": "tweet-apis;verify-that-specified-tweet-is-shown-using-deletetweetapi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8703516800,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Delete Tweet Payload with TweetId for \"Good companies never hesitate to help their employees #lockdown #DifficultTimes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Good companies never hesitate to help their employees #lockdown #DifficultTimes\"",
+                  "offset": 38
+                }
+              ],
+              "location": "TweetAPIStepDefination.delete_Tweet_Payload_with_TweetId_for(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2595195300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User sends \"DeleteTweet\" API request with \"POST\" http method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeleteTweet\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 42
+                }
+              ],
+              "location": "TweetAPIStepDefination.user_sends_API_request_with_http_method(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Status code of response is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "TweetAPIStepDefination.status_code_of_response_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 136800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Status line of response is \"HTTP/1.1 200 OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HTTP/1.1 200 OK\"",
+                  "offset": 27
+                }
+              ],
+              "location": "TweetAPIStepDefination.status_line_of_response_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40159900,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "\"text\" in response body matches with \"Good companies never hesitate to help their employees #lockdown #DifficultTimes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"text\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Good companies never hesitate to help their employees #lockdown #DifficultTimes\"",
+                  "offset": 37
+                }
+              ],
+              "location": "TweetAPIStepDefination.in_response_body_matches_with(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteTweet"
+          }
+        ]
+      },
+      {
+        "line": 64,
+        "name": "Verify that matching tweets are return using SearchTweetAPI",
+        "description": "",
+        "id": "tweet-apis;verify-that-matching-tweets-are-return-using-searchtweetapi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4159300,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Search Tweet Payload with \"COVID-19\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"COVID-19\"",
+                  "offset": 26
+                }
+              ],
+              "location": "TweetAPIStepDefination.search_Tweet_Payload_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2189473900,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User sends \"SearchTweet\" API request with \"GET\" http method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SearchTweet\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 42
+                }
+              ],
+              "location": "TweetAPIStepDefination.user_sends_API_request_with_http_method(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74500,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Status code of response is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "TweetAPIStepDefination.status_code_of_response_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Status line of response is \"HTTP/1.1 200 OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HTTP/1.1 200 OK\"",
+                  "offset": 27
+                }
+              ],
+              "location": "TweetAPIStepDefination.status_line_of_response_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166927400,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "\"search_metadata.query\" in response body matches with \"COVID-19\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"search_metadata.query\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"COVID-19\"",
+                  "offset": 54
+                }
+              ],
+              "location": "TweetAPIStepDefination.in_response_body_matches_with(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchTweet"
+          }
+        ]
+      }
+    ],
+    "name": "Tweet APIs",
+    "description": "",
+    "id": "tweet-apis",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/twitter/features/TweetAPI.feature",
+    "tags": []
+  }
+]
